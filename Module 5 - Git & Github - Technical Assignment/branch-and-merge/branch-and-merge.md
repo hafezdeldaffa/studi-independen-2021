@@ -19,6 +19,6 @@
 
 8. adalah fungsi yang mengambil dua set data input dan mengeluarkan perubahan di antara keduanya. git diff adalah perintah Git multi guna yang ketika dijalankan menjalankan fungsi diff pada sumber data Git. Sumber data ini dapat berupa komit, cabang, file, dan lainnya.
 
-9. git rm
+9. git reset
 
 10. Konflik penggabungan dapat terjadi saat menggabungkan cabang, rebasing cabang
