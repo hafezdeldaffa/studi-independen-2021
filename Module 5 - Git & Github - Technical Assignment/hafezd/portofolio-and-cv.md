@@ -11,5 +11,5 @@
 8. git checkout master
 9. nano README.md, git commit -m "update master pertama"
 10. git merge cv
-11. git push add origin
+11. git push add origin master
 ```
