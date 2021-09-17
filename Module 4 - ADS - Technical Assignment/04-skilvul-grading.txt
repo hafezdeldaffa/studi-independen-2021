@@ -1,0 +1,13 @@
+BEGIN
+    STORE "nilaiAwal" with integer
+    INPUT "nilaiAwal" with integer value
+    STORE "grade" with integer value
+
+    IF nilaiAwal is less than 68
+        DO DISPLAY "ANDA TIDAK LULUS"
+    ELSE IF ilaiAwal is less/less than 3 distances with rounded up values
+        DO round up nilaiAwal
+    ELSE 
+        DO DISPLAY nilaiAwal
+    END IF
+END

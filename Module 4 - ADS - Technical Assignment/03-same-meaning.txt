@@ -1,0 +1,18 @@
+BEGIN
+    INPUT "string" with any value
+    STORE "len" with 0
+    STORE "flag" with 0
+    WHILE string[len] is not equal to NULL
+        INCREMENT len
+        STORE "I" with 0, "J" with len-1
+    WHILE i is less than (len/2)+1
+        If String[I] equal to String[J]
+            flag=0
+        else
+            flag=1
+            INCREMENT I , DECREMENT J
+        If flag equal to 0
+            PRINT TRUE
+        else
+            PRINT FALSE
+END

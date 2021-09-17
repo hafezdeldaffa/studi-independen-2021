@@ -1,0 +1,13 @@
+BEGIN
+    FOR i <-- 1 TO 100 DO
+        IF i is divisible by 3 AND i is divisible by 5 THEN
+            OUTPUT "FizzBuzz"
+        ELSE IF i is divisible by 3 THEN
+            OUTPUT "Fizz"
+        ELSE IF i is divisible by 5 THEN
+            OUTPUT "Buzz"
+        ELSE
+            OUTPUT i
+        END IF
+    END FOR;
+END;

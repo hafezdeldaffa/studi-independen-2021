@@ -1,0 +1,15 @@
+#daftar-siswa {
+  background-color: #dcdcdc;
+}
+
+.berprestasi {
+  background-color: #60a5fa;
+}
+
+.kurang {
+  background-color: #f87171;
+}
+
+p:hover {
+  background-color: #e5e7eb;
+}

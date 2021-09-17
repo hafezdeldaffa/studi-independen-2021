@@ -1,0 +1,15 @@
+.siswa {
+  background-color: grey;
+  color: #f3f4f6;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: 'sans-serif';
+  margin: 0;
+  padding: 10px 15px;
+}
+
+p:hover {
+  color: #111827;
+  background-color: #f3f4f6;
+}
+ 

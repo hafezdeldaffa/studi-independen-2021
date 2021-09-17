@@ -1,0 +1,14 @@
+BEGIN
+    STORE "N" with integer value;
+    STORE "temp" with any value;
+    STORE "result1" with integer value;
+    STORE "result2" with integer value;
+
+    IF "temp" = "farenheit"
+        DO INPUT "N" with integer value AND STORE result1 = (N - 32) * (5/9);
+        DISPLAY result1;
+    ELSE 
+        DO INPUT "N" with integer value AND STORE result2 = N;
+        DISPLAY result2;
+    END IF
+END
