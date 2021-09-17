@@ -1,15 +1,24 @@
-## Jawaban Nomor 2 - portofolio-and-cv
+# Jawaban Nomor 3 - branch-and-merge
 
-```cli
-1. mkdir hafezd, cd hafezd
-2. touch README.md
-3. git init
-4. git branch cv, touch cv.txt, nano cv.txt
-5. git add first.txt
-6. git commit -m "inisialisasi cv"
-7. nano cv.txt, git commit
-8. git checkout master
-9. nano README.md, git commit -m "update master pertama"
-10. git merge cv
-11. git push add origin master
-```
+1. git clean adalah metode praktis untuk menghapus file yang tidak terlacak di direktori kerja repo. File yang tidak terlacak adalah file yang ada di direktori repo tetapi belum ditambahkan ke indeks repo dengan git add
+
+2. Jika Anda hanya membersihkan file yang tidak terlacak, jalankan git clean -f.
+   Jika Anda juga ingin menghapus direktori, jalankan git clean -f -d.
+   Jika Anda hanya ingin menghapus file yang diabaikan, jalankan git clean -f -X.
+   Jika Anda ingin menghapus file yang diabaikan dan tidak diabaikan, jalankan git clean -f -x.
+
+3. git branch
+
+4. Komit gabungan terus memiliki dua orang tua. Catatan: Tidak ada yang benar atau salah dari salah satu strategi tetapi dengan penggabungan maju cepat Anda memiliki garis lurus sejarah dan dengan penggabungan rekursif, itu adalah beberapa baris
+
+5. git checkout
+
+6. git rm <filename>
+
+7. git branch -d
+
+8. adalah fungsi yang mengambil dua set data input dan mengeluarkan perubahan di antara keduanya. git diff adalah perintah Git multi guna yang ketika dijalankan menjalankan fungsi diff pada sumber data Git. Sumber data ini dapat berupa komit, cabang, file, dan lainnya.
+
+9. git rm
+
+10. Konflik penggabungan dapat terjadi saat menggabungkan cabang, rebasing cabang, atau cherry memilih komit. Jika Git mendeteksi konflik, Git akan menyorot area konflik dan menanyakan kode mana yang ingin Anda simpan. Setelah Anda memberi tahu Git kode mana yang Anda inginkan, Anda dapat menyimpan file dan melanjutkan dengan penggabungan, rebase, atau cherry pick.
