@@ -10,6 +10,6 @@
 
 3. git stash pop membuang simpanan (paling atas, secara default) setelah menerapkannya, sedangkan git stash apply meninggalkannya di daftar simpanan untuk kemungkinan digunakan kembali nanti (atau Anda kemudian dapat git stash menjatuhkannya).
 
-Ini terjadi kecuali ada konflik setelah git stash pop, dalam hal ini ia tidak akan menghapus simpanan, membiarkannya berperilaku persis seperti git simpanan berlaku.
+   Ini terjadi kecuali ada konflik setelah git stash pop, dalam hal ini ia tidak akan menghapus simpanan, membiarkannya berperilaku persis seperti git simpanan berlaku.
 
 4. Interactive rebasing dapat digunakan untuk mengubah komit dalam banyak cara seperti mengedit, menghapus, dan meremas. Untuk memberi tahu Git tempat memulai rebase interaktif, gunakan SHA-1 atau indeks komit yang segera mendahului komit yang ingin Anda ubah.
