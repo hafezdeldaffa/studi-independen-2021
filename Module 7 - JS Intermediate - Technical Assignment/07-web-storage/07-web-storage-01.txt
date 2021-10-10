@@ -1,0 +1,6 @@
+1. Local storage merupakan tempat di browser yang bisa digunakan utnuk menyimpan data dan data tidak akan hilang walaupun browser di close dan komputer di restart. Local storage sendiri bisa digunakan untuk menyimpan konfigurasi yang diperlukan.
+
+2. Cookie adalah istilah untuk kumpulan informasi yang berisi rekam jejak dan aktivitas ketika menelusuri sebuah website. Secara sederhana pengertian cookies adalah kumpulan data yang diterima komputer dari sebuah situs dan mengirimkan kembali ke situs yang dikunjungi.
+
+3.Dalam hal kemampuan, cookie, sessionStorage, dan localStorage hanya memungkinkan Anda untuk menyimpan string - dimungkinkan untuk secara implisit mengkonversi nilai-nilai primitif saat pengaturan (ini akan perlu dikonversi kembali untuk menggunakannya sebagai tipe 
+mereka setelah membaca) tetapi tidak Objects atau Array (JSON memungkinkan untuk membuat serial mereka untuk menyimpannya menggunakan API). Penyimpanan sesi umumnya memungkinkan Anda untuk menyimpan primitif atau objek yang didukung oleh bahasa / kerangka Sisi Server Anda.

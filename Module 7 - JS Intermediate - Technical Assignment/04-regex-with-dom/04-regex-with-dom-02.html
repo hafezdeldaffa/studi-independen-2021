@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Skilvul</title>
+  </head>
+
+  <body>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" />
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" />
+    <button id="btn-submit" style="display: block; margin-top: 10px">
+      submit
+    </button>
+    <script>
+      /// EDIT DOWN HERE
+      const elInputEmail = document.querySelector('#email');
+      const elInputPassword = document.querySelector('#password');
+      const elBtn = document.querySelector('#btn-submit');
+      const validatorEmail = /\S+@\S+\.\S+/;
+      const validatorPassword =
+        /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/;
+
+      elBtn.onclick = (e) => {
+        let emailValue = elInputEmail.value;
+        let passwordValue = elInputPassword.value;
+
+        let emailTest = validatorEmail.test(emailValue);
+        console.log(emailTest);
+        let passwordTest = validatorPassword.test(passwordValue);
+        console.log(passwordTest);
+        if (emailTest === false && passwordTest === true) {
+          alert('tolong masukan email yang valid');
+          elInputEmail.value = '';
+          elInputPassword.value = '';
+        } else if (emailTest === true && passwordTest === false) {
+          alert('tolong masukan email yang valid');
+          elInputEmail.value = '';
+          elInputPassword.value = '';
+        } else if (emailTest === true && passwordTest === true) {
+          alert('tolong masukan email yang valid');
+          elInputEmail.value = '';
+          elInputPassword.value = '';
+        } else {
+          alert('tolong masukan email yang valid');
+          elInputEmail.value = '';
+          elInputPassword.value = '';
+        }
+
+        e.preventDefault();
+      };
+    </script>
+  </body>
+</html>
