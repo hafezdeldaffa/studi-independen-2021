@@ -1,0 +1,20 @@
+1. Apa itu responsive web design?
+2. Sebutkan apa saja relative units yang dimiliki oleh CSS?
+3. Apa itu breakpoint? Bagaimana cara kita membuat hal tersebut?
+4. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 1 dimensi?
+5. Apa yang dapat kita gunakan untuk memanipulasi tata letak suatu element dalam bidang 2 dimensi?
+
+JAWABAN:
+1. Responsive web design atau desain web responsif adalah sebuah teknik atau metode bagi web designer untuk membuat suatu layout website yang dapat menyesuaikan diri sesuai dengan ukuran layar pengguna.
+2.  em	Relative to the font-size of the element (2em means 2 times the size of the current font)	
+    ex	Relative to the x-height of the current font (rarely used)	
+    ch	Relative to the width of the "0" (zero)	
+    rem	Relative to font-size of the root element	
+    vw	Relative to 1% of the width of the viewport*	
+    vh	Relative to 1% of the height of the viewport*	
+    vmin	Relative to 1% of viewport's* smaller dimension	
+    vmax	Relative to 1% of viewport's* larger dimension	
+    %	    Relative to the parent element
+3. CSS breakpoint adalah titik di mana konten situs web merespons sesuai dengan lebar perangkat, memungkinkan Anda menampilkan tata letak terbaik kepada pengguna. Titik henti sementara CSS juga disebut titik henti kueri media, karena digunakan dengan kueri media. Dalam contoh ini, Anda dapat melihat bagaimana tata letak menyesuaikan dengan ukuran layar.
+4. Menggunakan div
+5. Menggunakan flex
