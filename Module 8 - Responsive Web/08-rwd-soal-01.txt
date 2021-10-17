@@ -16,5 +16,5 @@ JAWABAN:
     vmax	Relative to 1% of viewport's* larger dimension	
     %	    Relative to the parent element
 3. CSS breakpoint adalah titik di mana konten situs web merespons sesuai dengan lebar perangkat, memungkinkan Anda menampilkan tata letak terbaik kepada pengguna. Titik henti sementara CSS juga disebut titik henti kueri media, karena digunakan dengan kueri media. Dalam contoh ini, Anda dapat melihat bagaimana tata letak menyesuaikan dengan ukuran layar.
-4. Menggunakan div
-5. Menggunakan flex
+4. Menggunakan flexbox
+5. Menggunakan grid
