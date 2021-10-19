@@ -54,11 +54,55 @@
         background: green;
         color: white;
       }
+      .flex{
+          display: flex;
+          flex-direction: row-reverse;
+      }
+
+      .item{
+          display: flex;
+          flex-direction: row;
+          margin: 1em;
+      }
+
+      .list-item{
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .item-thumbnail{
+          flex: 1;
+      }
+
+      .item-thumbnail > img{
+          width: 100%;
+          height: 150px;
+          object-fit: cover;
+      }
+      .item-body{
+          flex: 2;
+          margin: 1em;
+      }
 
       /* Extra small devices (phones, 600px and down) */
       @media only screen and (max-width: 600px) {
         .container {
           margin: 1em;
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            flex: auto;
+        }
+        .item{
+            flex-direction: column;            
+        }
+        .item-text{
+            display: none;
+        }
+        .item-thumbnail > img{
+            width: 100%;
+            height: auto;
         }
       }
     </style>
