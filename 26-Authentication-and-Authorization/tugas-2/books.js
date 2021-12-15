@@ -76,7 +76,7 @@ app.post('/books', authenticateJWT, (req, res, next) => {
   };
 
   books.push(newBook);
-  res.status(201).send('Book added successfully');
+  res.status(201).send('Book added successfully!');
 });
 
 app.listen(port, () => {
