@@ -91,13 +91,19 @@ const books = [
   },
 ];
 
-app.get('/books', (req, res, next) => {
+app.get('/books', authenticateJWT, (req, res, next) => {
   res.json(books);
 });
 
 app.post('/books', authenticateJWT, (req, res, next) => {
   const { author, country, language, pages, title, year } = req.body;
 
+  const { role } = req.user;
+
+  if (role != "admin") {
+    return res.sendStatus(403);
+  }
+  
   const newBook = {
     author: author,
     country: country,
