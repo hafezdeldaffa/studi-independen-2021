@@ -32,8 +32,9 @@ app.post('/login', (req, res, next) => {
   if (user && passwordUsers) {
     const token = jwt.sign(
       {
-        username: users.username,
-        password: users.password,
+        username: user.username,
+        password: user.password,
+        role: user.role,
       },
       accessTokenSecret
     );
