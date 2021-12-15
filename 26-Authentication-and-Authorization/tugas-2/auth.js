@@ -26,10 +26,11 @@ const accessTokenSecret = 'youraccesstokensecret';
 app.post('/login', (req, res, next) => {
   const { username, password } = req.body;
 
-  const user = users.filter((el) => el.username === username);
-  const passwordUsers = users.filter((el) => el.password === password);
+  const user = users.find(
+    (el) => el.username === username && el.password === password
+  );
 
-  if (user && passwordUsers) {
+  if (user) {
     const token = jwt.sign(
       {
         username: user.username,
