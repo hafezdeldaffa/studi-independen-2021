@@ -1,0 +1,7 @@
+URL Heroku : https://sequelize-deploy-ta.herokuapp.com/
+
+URL Get Todo : https://sequelize-deploy-ta.herokuapp.com/todo
+URL Get Todo By Id : https://sequelize-deploy-ta.herokuapp.com/todo/1
+URL Add Todo : https://sequelize-deploy-ta.herokuapp.com/addTodo
+URL Update Todo : https://sequelize-deploy-ta.herokuapp.com/updateTodo/1
+URL Delete Todo : https://sequelize-deploy-ta.herokuapp.com/1
