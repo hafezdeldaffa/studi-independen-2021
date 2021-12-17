@@ -36,7 +36,7 @@ Relasi One to Many
     "_id": "ObjectId('AA07')",
     "productName": "Kaos Polos",
     "brandName": "SkilShirt",
-    "variants": ["ObjectId('AA05')", "ObjectId('AA06')"]
+    "variants": ["ObjectId('AA03')", "ObjectId('AA04')"]
 },
 {
     "_id": "ObjectId('AA03')",
