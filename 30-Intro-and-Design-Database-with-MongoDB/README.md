@@ -1,4 +1,5 @@
-1. Relasi One to One
+### Soal 1
+Relasi One to One
 
 **Skema Data**:
 
@@ -11,7 +12,8 @@
 }
 ```
 
-2. Relasi One to Many
+### Soal 2
+Relasi One to Many
 
 **Skema Data**:
 
@@ -24,7 +26,8 @@
 }
 ```
 
-3. Relasi One to Many
+### Soal 3
+Relasi One to Many
 
 **Skema Data**:
 
@@ -50,8 +53,8 @@
     "price": 99000
 }
 ```
-
-4. Relasi One to One
+### Soal 4
+Relasi One to One
 
 **Skema Data**:
 
